@@ -61,6 +61,7 @@ fn(true).then(function (val) {
 $ npm install co
 ```
 
+If you're using browser, simply include the index.js file via a script tag. It exposes one global variable - co
 ## Associated libraries
 
 Any library that returns promises work well with `co`.
